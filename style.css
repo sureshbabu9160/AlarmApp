@@ -1,0 +1,134 @@
+*{
+    color: white;
+    font-family: Roboto;
+}
+.main-head{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.set-timer{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(52, 52, 74, 1);
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.set-timer>div>h4{
+    margin-inline : 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.timer-details{
+    display: flex;
+    justify-content: center;
+    background: rgba(57, 57, 62, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+
+}
+.timer{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.timers{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.set ,.delete ,.stop{
+    margin-inline: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 30px !important;
+    background-color:rgba(240, 247, 87, 1) !important;
+}
+.container{
+    margin: 0 !important;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(29, 29, 35, 1);
+}
+.times-up , .times-up>h4{
+    color: rgba(52, 52, 74, 1) !important;
+    background-color:rgba(240, 247, 87, 1) !important;
+}
+.times-up > button{
+    background-color: rgba(52, 52, 74, 1) !important;
+    color: white !important;
+}
+
+@media screen and (max-width : 600px) {
+    .timer{
+        width: 100px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .set-timer>div>h4{
+        margin-inline : 20px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+
+    .set ,.delete ,.stop{
+        margin-inline: 20px;
+        width: 70px;
+        padding: 8px;
+        border-radius: 30px !important;
+        background-color:rgba(240, 247, 87, 1) !important;
+    }
+
+    .set-timer{
+        margin: 10px;
+        padding: 10px;
+        background: rgba(52, 52, 74, 1);
+        height: 80px;
+        width: 300px;
+        border-radius: 20px;
+        justify-content: space-between;
+    }
+    .main-head{
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
